@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,700&family=Poppins:wght@500;600;700&family=Raleway:wght@700&display=swap");
+.product_info_container {
+}
+.product_info_detail h2 {
+  margin: 0 0 2% 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #22262a;
+}
+.product_info_img img {
+  width: 100%;
+}
+.product_info_best_seller img {
+  width: 100%;
+}
+#info_bar {
+  width: 100%;
+  height: 2px;
+  background-color: #f6f7f8;
+  margin: 5% 0;
+}
+.price_new {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  /* identical to box height, or 36px */
+
+  letter-spacing: 0.5px;
+
+  /* Primary/Blue */
+
+  color: #40bfff;
+}
+.price_old {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: 0.5px;
+  text-decoration-line: line-through;
+  color: #9098b1;
+}
+.sale {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: 0.5px;
+
+  /* Primary/Red */
+
+  color: #fb7181;
+}
+.table_detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #262626;
+}
+.color_choose {
+  width: 21px;
+  height: 21px;
+  margin: 2%;
+  border-radius: 50%;
+  border: none;
+}
+input[type="button"]:checked {
+  border: solid 1% #9098b1;
+}
+.product_info_best_seller {
+}
+.product_info_best_seller h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #c1c8ce;
+}
+.new_price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ff4858;
+}
+.best_seller_container {
+  width: 282px;
+  height: 368px;
+  border: 3px solid #f6f7f8;
+}
+.product_info_content {
+  width: 100%;
+  height: 630px;
+}
+/* Mobile: width <740px */
+@media only screen and (max-width: 46.1875em) {
+  .product_info_best_seller {
+    display: none;
+  }
+}
+/* tablet : width >= 740px and < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
